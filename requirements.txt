@@ -1,0 +1,5 @@
+streamlit
+torch
+transformers>=4.56.0
+Pillow
+huggingface_hub
