@@ -1,5 +1,6 @@
 streamlit
 torch
-transformers>=4.56.0
+torchvision
+transformers>=4.56,<5.0
 Pillow
 huggingface_hub
