@@ -3,6 +3,12 @@ import torch
 import torch.nn as nn
 from PIL import Image
 from transformers import AutoImageProcessor, AutoModel
+import os
+from huggingface_hub import login
+   
+if "HF_TOKEN" in st.secrets:
+    login(token=st.secrets["HF_TOKEN"])
+
 
 # ─────────────────────────────────────────────────────────
 st.set_page_config(
